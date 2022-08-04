@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: #ff6a23;
+  margin-top: 3rem;
+}
+
+
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+.btn-item {
+  margin-left: 25px;
+  border: 2px solid rgb(80, 75, 66);
+  font-family: 'Bahianita', cursive;
+  font-size: 2rem;
+}
+
+.btn-thai {
+  background-clip: border-box;
+  font-weight: bold;
+  background: linear-gradient(to right, red,
+                    rgb(238, 222, 222), #0d1bd6, rgb(238, 222, 222),red);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+.btn-indo {
+  background-clip: border-box;
+  font-weight: bold;
+  background: linear-gradient(to right, red,
+                    rgb(232, 229, 229));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+.btn-malay {
+  background-clip: border-box;
+  font-weight: bold;
+  background: linear-gradient(to right, #0d1bd6,
+                   rgb(213, 208, 208), yellow,red);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+} 
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-items {
+  display: flex;
+  margin: 20px 0;
+  max-width: 80%;
+}
+.menu-info {
+  margin-left: 20px;
+}
+.menu-title {
+  /* display: flex;
+  justify-content: space-between; */
+  text-align: center; 
+  border-bottom: 1px solid black;
+  width: 50%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: firebrick;
+}
+
+.price-tag{
+  text-align: center; 
+  /* border-bottom: 1px solid black; */
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f23232;
+}
+
+
+.menu-text {
+  padding-top: 20px;
+  max-width: 80%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
